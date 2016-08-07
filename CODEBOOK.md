@@ -32,7 +32,7 @@ This file describes the detailed steps executed by the R Script "run_analysis.R"
 
 ## We now have a completed consolidated set of test and training data in one dataframe with the features correctly labled, the descriptive names of the activity performed for each observation
 
-## Next we need to find all the features that are the mean or standard deviation (std)
+## Next we need to find all the features that represent a mean or standard deviation (std)
 
 * Find the indexes of the column names that contain "mean", or "std" anywhere within the name
 * Check for all caps combos just in case - expression:  "[Mm][Ee][Aa][Nn]|[Ss][Tt][Dd]"
