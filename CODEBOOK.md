@@ -14,10 +14,10 @@ This file describes the detailed steps executed by the R Script "run_analysis.R"
 * Read in the activity names from activity_labels.txt
 
 * Get all the test data from /test/y_test.txt, /test/x_test.txt, /test/subject_test.txt
-* Combine the three separate test dfs into a single test df by appending the subject (subject_test) and activity (y_test) as additional columns
+* Combine the three separate test dfs into a single test df by appending the subject (subject_test) and activity (y_test) as additional columns onto the observations test set (x_test)
 
 * Get all the train data from /train/y_train.txt, /train/X_train.txt, /train/subject_train.txt
-* Combine the three separate train dfs into a single training df by appending the subject (subject_train) and activity (y_train) as additional columns
+* Combine the three separate train dfs into a single training df by appending the subject (subject_train) and activity (y_train) as additional columns onto the observations train set (x_train)
 
 * Using rbind combine the single test df and the single training df into a single df
 
